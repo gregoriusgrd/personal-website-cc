@@ -14,11 +14,11 @@ export default function HeroSection() {
     >
       <div className="mx-auto flex max-w-3xl flex-col items-center justify-center text-center">
         <Image
-          src="/hero/profile-pic.png"
+          src="/hero/profile.jpg"
           width={160}
           height={160}
           alt="Profile Picture"
-          className="mb-4"
+          className="mb-4 rounded-full"
         />
         <p className="text-sm text-gray-400">Hello, I'm</p>
         <h1 className="mt-2 mb-4 text-4xl font-bold md:text-5xl">Gregorius Geraldin</h1>

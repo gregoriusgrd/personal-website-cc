@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
             </div>
           </div>
           <p className="text-gray-300 text-sm">
-            "Working with John Doe was a pleasure. They delivered every
+            "Working with Gregorius Geraldin was a pleasure. They delivered every
             milestone ahead of time, and the final product exceeded expectations.
             Highly recommended for any serious dev project."
           </p>

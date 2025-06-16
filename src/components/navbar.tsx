@@ -8,7 +8,7 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header id="navbar" className="font-figtree w-full fixed top-0 bg-[#1f1f1f] text-white shadow-md">
+    <header id="navbar" className="font-figtree w-full fixed z-50 top-0 bg-[#1f1f1f] text-white shadow-md">
 
       {/* Desktop Tampilan */}
       <nav className="hidden md:flex justify-between items-center px-10 py-4 h-20">
@@ -49,12 +49,12 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      {/* Mobile tem */}
+      {/* Mobile buton */}
       <nav className="md:hidden flex justify-between items-center px-6 py-4">
         <div className="text-xl font-semibold">John Doe</div>
         <div className="relative">
           <button
-            className="flex flex-col gap-1"
+            className="flex flex-col gap-1 cursor-pointer"
             onClick={toggleMenu}
             aria-label="Toggle Menu"
           >

@@ -59,7 +59,7 @@ export default function CarouselPortfolio({ portfolios }: CarouselPortfolioProps
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
+      <CarouselPrevious/>
       <CarouselNext />
     </Carousel>
   );

@@ -8,9 +8,11 @@ import TestimonialsSection from "./sections/06-testimonials";
 import ContactSection from "./sections/07-contact";
 
 import { fetchPortfolioService } from "@/service/portfolio.service";
+import { fetchTestimonialService } from "@/service/testimonial.service";
 
 export default async function HomeView() {
     const portfolios = await fetchPortfolioService();
+    const testimonials = await fetchTestimonialService()
     return(
         <main>
           <Navbar />  
@@ -19,7 +21,7 @@ export default async function HomeView() {
           <SkillsSection />
           <PortfolioSection portfolios={portfolios} />
           <ExperienceSection />
-          <TestimonialsSection />
+          <TestimonialsSection testimonials={testimonials} />
           <ContactSection />
         </main>
     )

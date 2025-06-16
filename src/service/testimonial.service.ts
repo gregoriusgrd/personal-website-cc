@@ -13,6 +13,8 @@ export async function fetchTestimonialService(): Promise<ITestimonial[]> {
       },
     });
 
+      console.log("data Contentful:", data);
+
     const assetsMap: Record<string, any> = {};
     data.includes?.Asset?.forEach((asset: any) => {
       assetsMap[asset.sys.id] = asset;

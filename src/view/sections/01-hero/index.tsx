@@ -14,7 +14,7 @@ export default function HeroSection() {
     >
       <div className="mx-auto flex max-w-3xl flex-col items-center justify-center text-center">
         <Image
-          src="/hero/profile.jpg"
+          src="/hero/picture.jpg"
           width={160}
           height={160}
           alt="Profile Picture"
